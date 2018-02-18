@@ -1,11 +1,10 @@
 # dockerfiles
 
-Here are some Dockerfiles.
+This docker image is forked [from aergus/dockerfiles](https://github.com/aergus/dockerfiles). It's for LaTeX CI Builds and now additionally contains
 
-Since Docker Hub does not have GitLab integration (as of the writing of this
-file), this repository is hosted both [on GitLab][gl] and [on GitHub][gh].
+* python
+* pip
+* [pygments](http://pygments.org)
+  * needed for LaTeX code syntax highlighter [minted](https://github.com/gpoore/minted)
 
-
-[gl]: https://gitlab.com/aergus/dockerfiles
-[gh]: https://github.com/aergus/dockerfiles
-
+Docker available for usage under [kryptokommunist/latex](https://hub.docker.com/r/kryptokommunist/latex/)
