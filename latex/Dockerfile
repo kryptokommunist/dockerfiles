@@ -12,5 +12,6 @@ RUN apt-get update && apt-get install -y \
   apt-get --purge remove -y .\*-doc$ && \
   # Remove more unnecessary stuff
   apt-get clean -y
-  pip install pygments
+
+RUN pip install pygments
 
