@@ -13,5 +13,5 @@ RUN apt-get update && apt-get install -y \
   # Remove more unnecessary stuff
   apt-get clean -y
 
-RUN pip install pygments requests
+RUN pip install pygments requests pytest pytest-cov pytest-mock
 
